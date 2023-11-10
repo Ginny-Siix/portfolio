@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="A propos | CLM" description="A propos Lescaudron -- Motte Cécile">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="A propos de moi"
+				tagline="Merci d'être passé, si vous avez des retours ou souhaitez me contacter, je reste à votre disposition."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.webp"
+					alt="photo de moi "
+				/>
+			</Hero>
+			<section>
+				<h2 class="section-title">Histoire</h2>
+				<div class="content">
+					<p>
+						Née le 06/06/1995, J'habite dans l'agglomération Orléanaise depuis 2006. Parcours scolaire mouvementé à cause des déménagements à répétition.
+						J'ai 2 petite soeurs et grandi avec des chats. Ma mère à eu un accident quand j'avais 14 ans, J'ai dû arreter le college en 4 eme pour endosser mon rôle d'âinée à temps plein <br>
+						<br>
+					</p>
+					<p>
+						Mon père (sur paris) travail dans l'informatique, c'est lui qui ma initiée à l'ordinateur vers l'age de 8/9 ans. J'ai commencé sur les jeux vidéos (AoE, sims 3, WoW)
+						plus tard, j'ai commencer à créer des forums. Mon père m'a créer un petit programme en Python, j'ai adoré faire déplacer la tortue sur mon écrant ! <br>
+						<br>
+					</p>
+					<p>
+						Niveau professionel, je me suis dabord dirigé vers la petite enfance. J'ai également fais des stages (ventes, fleuriste ...) C'est quand j'ai vu une pub pour la formation Intégrateur Web que je vraiment commencer à croire que moi aussi, je pouvais le faire !
+						mon objectif : Apprendre ! toujours plus !  me former et découvrir. A long terme, je m'orienterais vers dévellopeur d'applications android (ou native). <br>
+					</p>
+				</div>
+			</section>
+
+			<section>
+				<h2 class="section-title">Centres d'intéret</h2>
+				<div class="content">
+					<p> 
+						<ul> 
+							<li> L'informatique (jeux vidéo, monter un pc) </li>
+							<li> Tir à l'arc (en club depuis 2 ans) </li>
+							<li>Lecture ( depuis que je suis en CE2)</li>
+							<li>Harry potter ( depuis 2001 )</li>
+							<li>Les annimaux (chats, j'en ai 8)</li>
+							<li> L'écriture (j'écris un livre depuis mes 15 ans)</li>
+							<li> travaux manuel ( diamond painting, broderie, canvas, coloriage ...)</li>
+						</ul>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>
+					HTML & CSS <br>
+					Javascript  => JS REACT, Node JS<br>
+					figma
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
