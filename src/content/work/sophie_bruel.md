@@ -39,4 +39,4 @@ Ce projet fictif a été l'occasion d'appliquer mes compétences en développeme
 
 
 
-<a href ="https://github.com/Ginny-Siix/Projet-6"> dépot git Hub  <a>
+<a href ="sophie-bruel-p6.netlify.app"> portfolio Sophie Bruel, photographe <a>
