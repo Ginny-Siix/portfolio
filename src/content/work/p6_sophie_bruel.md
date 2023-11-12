@@ -39,4 +39,4 @@ Ce projet fictif a été l'occasion d'appliquer mes compétences en développeme
 
 
 
-<a href ="sophie-bruel-p6.netlify.app"> portfolio Sophie Bruel, photographe <a>
+<a href ="sophie-bruel-p6.netlify.app"> portfolio Sophie Bruel, architecte <a>
