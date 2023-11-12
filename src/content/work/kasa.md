@@ -35,8 +35,4 @@ Conclusion :
 Ce projet fictif a été une opportunité d'appliquer mes connaissances en développement front-end dans un contexte professionnel simulé. La refonte de Kasa m'a permis de relever des défis spécifiques, notamment en l'absence du back-end, renforçant ainsi mes compétences en résolution de problèmes. Travailler avec des maquettes détaillées a également souligné l'importance de la collaboration entre développeurs et designers pour une expérience utilisateur optimale. Ce scénario m'a offert une expérience pratique enrichissante dans le cadre de ma formation en tant que développeuse intégrateur web.
 
 
-<a href ="https://github.com/Ginny-Siix/Projet-6"> repository git hub - Kasa  <a>
-
-
-
-
+<a href ="https://kasa-p8.netlify.app"> le site - Kasa  <a>
