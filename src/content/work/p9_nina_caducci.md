@@ -53,4 +53,4 @@ Dans le cadre de ma prestation en tant que développeur freelance, j'ai proposé
 Cette prestation a permis d'optimiser significativement le référencement du site de Nina Carducci, améliorant sa visibilité en ligne. Les différentes actions réalisées ont été documentées dans un rapport détaillé remis à la cliente.
 
 
-<a href ="https://github.com/Ginny-Siix/p9"> Le portfolio de Nina Carducci <a>
+<a href ="https://ginny-siix.github.io/p9/"> Le portfolio de Nina Carducci <a>
