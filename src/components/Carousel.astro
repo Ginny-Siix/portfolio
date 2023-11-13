@@ -1,0 +1,40 @@
+<astro>
+    import React from 'react';
+    
+    interface CarouselProps {
+      images: string[];
+    }
+    
+    const Carousel: React.FC<CarouselProps> = ({ images }) => {
+      // Votre implémentation du composant Carousel
+      return (
+        <div className="carousel">
+          {/* Contenu du carrousel */}
+        </div>
+      );
+    };
+    
+    const images: string[] = [
+      'projet1.jpg',
+      'projet2.jpg',
+      // Ajoutez plus d'images au besoin
+    ];
+    
+    const carouselHtml = <Carousel images={images} />;
+    </astro>
+    
+    <html>
+      <head>
+        <title>Mon Portfolio</title>
+      </head>
+      <body>
+        <div>
+          <h1>Mon Portfolio</h1>
+          <div id="carousel-root">
+            {carouselHtml}
+          </div>
+        </div>
+        <script type="module" src="/path/to/your/react-app.js"></script>
+      </body>
+    </html>
+    
